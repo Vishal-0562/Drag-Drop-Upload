@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and upload</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="drop-container">
+        <div class="drag">
+            <i class="fas fa-file-upload"></i>
+            <span class="text">
+                Drag your documents, product, and <br> video here to start uploding
+            </span>
+            <div class="or-con">
+                <span class="line"></span>
+                <span class="or">OR</span>
+                <span class="line"></span>
+            </div>
+            <label for="file-upload">Upload File</label>
+            <input type="file" name="file-input" id="file-upload" class="file-input" multiple />
+        </div>
+        <div class="progress"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

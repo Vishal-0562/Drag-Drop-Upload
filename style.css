@@ -1,0 +1,83 @@
+body{
+    background:#bbcde4;
+    display: grid;
+    place-items: center;
+    font-family: Poppins;
+    height: 100vh;
+    overflow: hidden;
+}
+.drop-container{
+    width:27em;
+    background: rgba(255, 253, 253, 0.605);
+    padding: 1.5em;
+    display:inline-block;
+    border-radius: 20px;
+    box-shadow:0px 0px 40px 15px rgba(0, 0, 0, 0.2);
+
+}
+.drag{
+    background-color: #afc7e7;
+    border:2px dashed rgba(77, 75, 75, 0.852);
+    border-radius: 20px;
+    padding: 2em;
+    display: grid;
+    place-content: center;
+    width:100%;
+    box-sizing:border-box;
+    place-items: center;
+
+}
+.drag .fas{
+    font-size: 4em;
+    color:rgba(78, 24, 214, 0.989);
+}
+.drag .text{
+    font-size:1.2em;
+    color:rgb(0, 0, 0) ;
+    margin:1em;
+    font-weight:500;
+    text-align: center;
+}
+.or-con{
+    display: flex;
+    align-items: center;
+    margin: .5em;
+}
+.or{
+    margin:0 1em;
+    font-weight: 700;
+    color: #443f46;
+}
+.line{
+    height: 1px;
+    width:6em;
+    background-color: #443f46;
+}
+.file-input{
+    display: none;
+}
+label{
+    background-color: rgba(78, 24, 214, 0.989);
+    padding:.8em 2em;
+    border-radius: 20px;
+    color:white;
+    font-size:1em;
+    font-weight: 800;
+    text-transform:capitalize;
+    margin: .5em 0;
+    cursor: pointer;
+    box-shadow:0px 0px 40px 15px rgba(0, 0, 0, 0.2);
+}
+.progress{
+    background: rgb(78, 24, 214);
+    width:0%;
+    height: 0.7em;
+    display:none;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.active{
+    border: 3px solid #2c2b2baf;
+    background: #75a9ec;
+    
+}
